@@ -19,7 +19,6 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: /home/ubuntu/react
-          # EXCLUDE: "/dist/, /node_modules/"
           
       - name: Deploy app
         uses: appleboy/ssh-action@v1

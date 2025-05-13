@@ -179,5 +179,3 @@ const Table = () => {
 
 export default Table;
 
-// Nandini@2315
-// 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

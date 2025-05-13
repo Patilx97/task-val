@@ -1,0 +1,22 @@
+/* Input field focus border animation */
+.input-field {
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Focused input field with animated border */
+.input-field:focus {
+  border: 2px solid rgb(231, 126, 56); /* Highlight border color */
+  box-shadow: 0 0 5px rgba(231, 126, 56, 0.6);
+}
+
+/* Button hover effect */
+button:hover {
+  background: rgb(204, 98, 40); /* Darken the button color on hover */
+  transform: scale(1.05); /* Slightly scale the button */
+  transition: background 0.3s ease, transform 0.3s ease;
+}

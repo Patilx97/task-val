@@ -1,0 +1,6 @@
+.shadow{
+    filter: drop-shadow(0 0 0.75rem crimson);
+    width: 15rem;
+    margin: 2rem;
+    box-shadow: 0px 0px 0px transparent;
+}

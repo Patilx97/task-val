@@ -1,0 +1,7 @@
+Dashboard page
+-------------
+--> npm install react-bootstrap bootstrap
+
+Import Bootstrap CSS in your index.js or App.js:
+--> import 'bootstrap/dist/css/bootstrap.min.css';
+

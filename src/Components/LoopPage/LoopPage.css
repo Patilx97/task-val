@@ -1,0 +1,33 @@
+.loop-container {
+  width: 400vw; /* 4 sections * 100vw */
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.panel {
+  flex: 0 0 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.panel1 {
+  background: #2d2dff;
+}
+.panel2 {
+  background: #ff6f61;
+}
+.panel3 {
+  background: #4db6ac;
+}
+.panel4 {
+  background: #333;
+}

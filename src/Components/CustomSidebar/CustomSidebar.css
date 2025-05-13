@@ -1,0 +1,24 @@
+/* src/Components/CustomSidebar/CustomSidebar.css */
+.pro-sidebar {
+  background-color: #fff !important;
+  height: 100vh;
+  transition: all 0.3s ease !important;
+  border-right: 1px solid #ddd;
+}
+
+.pro-sidebar-inner {
+  background-color: #fff !important;
+}
+
+.pro-menu-item {
+  color: #333 !important;
+}
+
+.pro-menu-item:hover {
+  background-color: #f3f3f3 !important;
+}
+
+.pro-icon-wrapper {
+  background-color: transparent !important;
+  color: #333 !important;
+}

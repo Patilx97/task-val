@@ -76,7 +76,7 @@ const Login = () => {
         <h2 className="text-center mb-4 valasys-text">Login</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="form-group mb-3">
-            <label className="labels">Email address</label>
+            <label className="labels">Enter yout email address</label>
             <input
               type="email"
               className={`form-control ${errors.email ? "is-invalid" : ""}`}

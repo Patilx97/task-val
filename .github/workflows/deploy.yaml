@@ -1,0 +1,8 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test_schedule:
+    runs-on: ubuntu-latest
